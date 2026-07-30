@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Check, X, LogIn, LockKeyhole, Loader2 } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'http://localhost:3001/api/admin';
+const API_URL = 'https://teste2-beta-three.vercel.app/api/admin';
 
 interface Post {
   id: string;
